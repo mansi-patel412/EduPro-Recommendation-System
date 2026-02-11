@@ -111,3 +111,7 @@ EduPro_Recommendation_System/
 
 **Mansi Patel**  
 Machine Learning & Data Science Enthusiast
+
+🔗 Live Demo
+Deployed Streamlit App: https://edupro-recommendation-system-jwuokvh7fqmy7xrkbypvhz.streamlit.app/
+
