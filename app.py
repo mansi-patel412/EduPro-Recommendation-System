@@ -5,11 +5,11 @@ import joblib
 st.title("EduPro Recommendation System")
 
 # Load data
-learner_profiles = pd.read_csv("learner_profiles.csv")
-courses = pd.read_csv("courses.csv")
+learner_profiles = pd.read_csv("data/learner_profiles.csv")
+courses = pd.read_csv("data/courses.csv")
 
 # Load model
-kmeans = joblib.load("kmeans_model.pkl")
+kmeans = joblib.load("models/kmeans_model.pkl")
 
 # Select User
 user_id = st.selectbox("Select User", learner_profiles["UserID"])
